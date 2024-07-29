@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
 
 * {
@@ -8,13 +9,11 @@
     list-style: none;
     text-decoration: none;
 }
-
 :root {
-    --qora-: #141d28;
     --kuk-: #377dff;
-    --mont-: "Montserrat", sans-serif;
+    --qora-: #141d28;
+    --montserrat-: "Montserrat", sans-serif;
 }
-
 body {
     font-family: "Poppins", sans-serif;
 }
@@ -23,9 +22,8 @@ button {
     cursor: pointer;
 }
 
-/* HEADER */
 
-header .top {
+header .top-navbar {
     display: flex;
     color: white;
     background-color: var(--qora-);
@@ -84,7 +82,7 @@ header h1 {
 
 header .design_agency {
     border-left: 4px solid var(--kuk-);
-    font-family: var(--mont-);
+    font-family: var(--montserrat-);
     padding-left: 20px;
     font-weight: 400;
 }
@@ -130,7 +128,7 @@ section .works h2 {
     font-size: 40px;
     font-weight: 600;
     letter-spacing: 1px;
-    font-family: var(--mont-);
+    font-family: var(--montserrat-);
     border-left: 3px solid var(--kuk-);
     text-align: center;
     padding-left: 40px;
@@ -152,7 +150,7 @@ section .works .box {
     align-items: center;
     font-size: 30px;
     font-weight: 400;
-    font-family: var(--mont-);
+    font-family: var(--montserrat-);
     gap: 10px;
     color: var(--qora-);
 }
@@ -180,7 +178,7 @@ section .boxes {
 section .top h3 {
     font-size: 20px;
     font-weight: 400;
-    font-family: var(--mont-);
+    font-family: var(--montserrat-);
 }
 
 section .boxes p {
@@ -206,7 +204,7 @@ section .best-workers .left-box p {
     border-left: 3px solid var(--kuk-);
     font-size: 40px;
     font-weight: 600;
-    font-family: var(--mont-);
+    font-family: var(--montserrat-);
     letter-spacing: 1px;
 }
 
@@ -259,7 +257,7 @@ section .workers h2 {
     font-size: 26px;
     font-weight: 400;
     letter-spacing: 1px;
-    font-family: var(--mont-);
+    font-family: var(--montserrat-);
     text-align: center;
     margin: 20px 0;
 }
@@ -293,7 +291,7 @@ section .title {
     padding-left: 40px;
     font-size: 40px;
     letter-spacing: 1px;
-    font-family: var(--mont-);
+    font-family: var(--montserrat-);
     font-weight: 400;
     margin-bottom: 80px;
 }
@@ -306,14 +304,14 @@ section .title p:last-child {
 section .service h3 {
     font-size: 44px;
     font-weight: 400;
-    font-family: var(--mont-);
+    font-family: var(--montserrat-);
     letter-spacing: 1px;
     color: #657991;
     font-size: 45px;
 }
 
 section .service .p {
-    font-family: var(--mont-);
+    font-family: var(--montserrat-);
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 1px;
@@ -372,7 +370,7 @@ section .testimonials h2 {
     font-weight: 600;
     letter-spacing: 1px;
     text-align: center;
-    font-family: var(--mont-);
+    font-family: var(--montserrat-);
     padding-left: 40px;
     border-left: 3.5px solid var(--kuk-);
 }
@@ -413,7 +411,7 @@ section .testimonials p:first-child {
 section .testimonials h4 {
     font-size: 27px;
     font-weight: 400;
-    font-family: var(--mont-);
+    font-family: var(--montserrat-);
     letter-spacing: 1px;
     color: var(--qora-);
 }
@@ -433,7 +431,7 @@ section .new-era {
     display: flex;
     justify-content: end;
     align-items: center;
-    font-family: var(--mont-);
+    font-family: var(--montserrat-);
     background: url(../img/Rectangle\ \(15\).svg) no-repeat left bottom;
     padding: 150px 200;
 }
@@ -487,7 +485,7 @@ section .news h2 {
     font-size: 40px;
     font-weight: 600;
     letter-spacing: 1px;
-    font-family: var(--mont-);
+    font-family: var(--montserrat-);
     padding-left: 40px;
     border-left: 3.5px solid var(--kuk-);
     margin-bottom: 70px;
@@ -515,7 +513,7 @@ section .software button {
     color: white;
     background-color: var(--kuk-);
     border: none;
-    font-family: var(--mont-);
+    font-family: var(--montserrat-);
 }
 
 section .left_item p {
@@ -536,7 +534,7 @@ section .left_item {
 section .left_item h4:first-child {
     font-size: 17px;
     font-weight: 400;
-    font-family: var(--mont-);
+    font-family: var(--montserrat-);
     letter-spacing: 1px;
     color: var(--qora-);
     margin-bottom: 10px;
@@ -562,7 +560,7 @@ section .security-text {
 section .security-text p:first-child {
     font-size: 18px;
     font-weight: 300;
-    font-family: var(--mont-);
+    font-family: var(--montserrat-);
     letter-spacing: 1px;
     color: #ffffff;
     margin-bottom: 20px;
@@ -574,8 +572,6 @@ section .security-text p:last-child {
     display: flex;
     gap: 40px;
 }
-
-/* FOOTER */
 
 footer .top {
     display: flex;
@@ -619,7 +615,7 @@ footer h3 {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 400;
-    font-family: var(--mont-);
+    font-family: var(--montserrat-);
     letter-spacing: 4.8px;
     color: var(--kuk-);
     margin-bottom: 50px;
